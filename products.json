@@ -1,0 +1,25 @@
+
+	
+		{"device": [{
+			"deviceName": "Apple iPhone 13 Pro",
+			"deviceDescription": "The ultimate iPhone.",
+			"devicePrice": "949.00",
+			"deviceCurrency": "GBP",
+			"5GSupported": true
+		},
+ 		{
+			"deviceName": "Apple iPhone 12",
+			"deviceDescription": "As amazing as ever.",
+			"devicePrice": "579.00",
+			"deviceCurrency": "GBP",
+			"5GSupported": false
+		},
+		{
+			"deviceName": "Apple iPhone 13",
+			"deviceDescription": "A total power house.",
+			"devicePrice": "679.00",
+			"deviceCurrency": "GBP",
+			"5GSupported": true
+		}
+	
+]}

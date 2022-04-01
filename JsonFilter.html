@@ -1,0 +1,30 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+ <HEAD>
+  <TITLE> New Document </TITLE>
+  <META NAME="Generator" CONTENT="EditPlus">
+  <META NAME="Author" CONTENT="">
+  <META NAME="Keywords" CONTENT="">
+  <META NAME="Description" CONTENT="">
+		<script type="text/javascript" src="jquery-1.2.1.pack.js"></script>
+		<script type="text/javascript" src="dump.js"></script>
+		<script type="text/javascript" src="jsonsql-0.1.js"></script>
+		<script type="text/javascript">
+			function get(){
+				$.getJSON("products.json", function(json){
+					dump(jsonsql.query("select deviceName,deviceDescription,devicePrice,deviceCurrency,5GSupported from json.device order by devicePrice asc",json));
+				});
+			}
+		</script>
+ </HEAD>
+ <BODY>	
+		<hr/>
+		<p>Print device name, description, currency and price with price in ascending order</p>
+        <button name="btn1" id="btn1"  onclick="get();">Implement</button>
+		<hr/>
+
+		</P>
+
+		
+ </BODY>
+</HTML>
